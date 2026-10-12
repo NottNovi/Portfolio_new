@@ -4,7 +4,7 @@ import SectionHead from './SectionHead.jsx';
 export default function About() {
   return (
     <section id="about" className="section">
-      <SectionHead index="01" kicker="Pilot profile" title="The engineer behind the nova" />
+      <SectionHead index="01" kicker="Pilot profile" title="Who I am?" />
       <div className="about">
         <div className="about__text reveal">
           {about.paragraphs.map((p, i) => (
