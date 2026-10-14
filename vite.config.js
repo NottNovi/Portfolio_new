@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// The site is served from https://nottnovi.github.io/Portfolio_new/
-// If you move it to a custom domain or a <username>.github.io repo, change base to '/'.
+// Relative asset paths: the built site works at any address
+// (nottnovi.github.io/portfolio/, a custom domain, or a renamed repo).
 export default defineConfig({
   plugins: [react()],
-  base: '/Portfolio_new/',
+  base: './',
 });
